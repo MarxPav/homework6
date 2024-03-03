@@ -25,10 +25,28 @@ public class Main {
             System.out.println(i);
         }
         //Задача 7
-        for (int i = 1; i<= 512; i = i * 2) {
+        for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
         //Задача 8
-
+        int savingMoney1 = 29000;
+        int month1 = 0;
+        for (int i = 1; i <= 12; i++) {
+            month1 = month1 + savingMoney1;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + month1 + " рублей");
+        }
+        //Задача 9
+        int savingMoney2 = 29000;
+        int month2 = 0;
+        for (int i = 1; i <= 12; i++) {
+            month2 = month2 + month2 / 100;
+            month2 = month2 + savingMoney2;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + month2 + " рублей");
+        }
+        //Задача 10
+        int b = 2;
+        for (int i = 1; i <= 10; i = i + 1) {
+            System.out.println(b + "*" + i + "=" + i * b);
+        }
     }
-    }
+}
