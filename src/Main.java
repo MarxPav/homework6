@@ -44,9 +44,9 @@ public class Main {
             System.out.println("Месяц " + i + " сумма накоплений равна " + month2 + " рублей");
         }
         //Задача 10
-        int a = 2;
+        int b = 2;
         for (int i = 1; i <= 10; i = i + 1) {
-            System.out.println( a + "*" + i + "=" + i * a);
+            System.out.println( b + "*" + i + "=" + i * b);
         }
     }
     }
